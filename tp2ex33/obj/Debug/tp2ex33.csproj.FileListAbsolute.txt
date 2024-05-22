@@ -1,0 +1,12 @@
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.Form1.resources
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.Properties.Resources.resources
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.csproj.CoreCompileInputs.cache
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\bin\Debug\tp2ex33.exe.config
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\bin\Debug\tp2ex33.exe
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\bin\Debug\tp2ex33.pdb
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.exe
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.pdb
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.Form2.resources
+C:\Users\moulinville\Desktop\C#.net\tp2ex33\obj\Debug\tp2ex33.Form3.resources

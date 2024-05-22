@@ -1,0 +1,169 @@
+ public class Client
+{
+    public string Nom { get; set; }
+    public int Numero { get; set; }
+    public string Prenom { get; set; }
+
+    public Client(string nom, int numero, string prenom)
+    {
+        Nom = nom;
+        Numero = numero;
+        Prenom = prenom;
+    }
+}
+
+
+___________________________________________________
+
+
+public class CompteBancaire
+{
+    private string _devise;
+    private Client _titulaire;
+    private decimal _solde;
+
+    public CompteBancaire(Client titulaire, string devise)
+    {
+        _titulaire = titulaire;
+        _devise = devise;
+        _solde = 0;
+    }
+
+    public Client Titulaire
+    {
+        get { return _titulaire; }
+    }
+
+    public string Devise
+    {
+        get { return _devise; }
+    }
+
+    public decimal Solde
+    {
+        get { return _solde; }
+    }
+
+    public void Crediter(decimal montant)
+    {
+        if (montant > 0)
+        {
+            _solde += montant;
+        }
+        else
+        {
+            throw new Exception("Le montant à créditer doit être supérieur à zéro.");
+        }
+    }
+
+    public void Debiter(decimal montant)
+    {
+        if (montant > 0 && montant <= _solde)
+        {
+            _solde -= montant;
+        }
+        else
+        {
+            throw new Exception("Montant invalide ou solde insuffisant.");
+        }
+    }
+
+    public string Decrite()
+    {
+        return $"Le titulaire {_titulaire.Prenom} {_titulaire.Nom} (N° {_titulaire.Numero}) possède {_solde} {_devise}.";
+    }
+}
+
+
+
+__________________________________________________________
+
+
+
+
+
+
+using System;
+using System.Windows.Forms;
+
+namespace VotreProjet
+{
+    public partial class MainForm : Form
+    {
+        private Client client;
+        private CompteBancaire compte;
+
+        public MainForm()
+        {
+            InitializeComponent();
+        }
+
+        private void CreerClientButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int numero = (int)NumeroNumericUpDown.Value;
+                string nom = NomTextBox.Text;
+                string prenom = PrenomTextBox.Text;
+                client = new Client(nom, numero, prenom);
+                MessageBox.Show("Client créé avec succès !");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors de la création du client : " + ex.Message);
+            }
+        }
+
+        private void CreerCompteButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (client != null)
+                {
+                    string devise = DeviseTextBox.Text;
+                    compte = new CompteBancaire(client, devise);
+                    MessageBox.Show("Compte bancaire créé avec succès !");
+                }
+                else
+                {
+                    throw new Exception("Créez d'abord un client.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur lors de la création du compte bancaire : " + ex.Message);
+            }
+        }
+
+        private void ValiderButton_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                decimal montant = MontantNumericUpDown.Value;
+
+                if (compte != null)
+                {
+                    if (CreditRadioButton.Checked)
+                    {
+                        compte.Crediter(montant);
+                    }
+                    else if (DebitRadioButton.Checked)
+                    {
+                        compte.Debiter(montant);
+                    }
+
+                    ResultatTextBox.Text = compte.Decrite();
+                }
+                else
+                {
+                    throw new Exception("Créez d'abord un compte bancaire.");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erreur : " + ex.Message);
+            }
+        }
+    }
+}
+

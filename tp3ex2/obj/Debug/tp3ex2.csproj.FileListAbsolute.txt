@@ -1,0 +1,10 @@
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.Form1.resources
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.Properties.Resources.resources
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.csproj.CoreCompileInputs.cache
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\bin\Debug\tp3ex2.exe.config
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\bin\Debug\tp3ex2.exe
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\bin\Debug\tp3ex2.pdb
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.exe
+C:\Users\moulinville\Desktop\C#.net\tp3ex2\obj\Debug\tp3ex2.pdb

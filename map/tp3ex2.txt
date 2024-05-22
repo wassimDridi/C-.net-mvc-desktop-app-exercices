@@ -1,0 +1,112 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ex2
+{
+    internal class comptebancaire
+    {
+        private string _Name;
+        private decimal _Solde;
+        public comptebancaire()
+        {
+            _Name = "unknown";
+            _Solde = 0;
+        }
+        public comptebancaire(string name)
+        {
+            _Name = name;
+        }
+        public void setName(string name)
+        {
+            _Name = name;
+        }
+        public string getName()
+        {
+            return _Name;
+        }
+        public void crediter(decimal montant)
+        {
+            if (montant > 0)
+            {
+                _Solde += montant;
+            }
+        }
+        public decimal getSolde()
+        {
+            return _Solde;
+        }
+        public override string ToString()
+        {
+            return _Name;
+        }
+        public void Debiter(decimal montant)
+        {
+            if (montant > _Solde)
+            {
+                throw new Exception("erreur");
+            }
+            _Solde -= montant;
+        }
+        public string Describe()
+        {
+            return "La titulaire " + _Name + " possède " + _Solde + " en DT";
+        }
+
+    }
+}
+
+__________________________________________________________
+
+
+using ex2;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace tp3ex2
+{
+    public partial class Form1 : Form
+    {
+        public Form1()
+        {
+            InitializeComponent();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+            //label hh
+        }
+        private comptebancaire compte;
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string n;
+            n = nom.Text;
+            compte = new comptebancaire(n);
+            r.Text = "compte creer avec succes ";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            decimal montant = decimal.Parse(mont.Text);
+            r.Text = "";
+            if (cc.Checked)
+            {
+                compte.crediter(montant);
+            }
+            else if (dd.Checked)
+            {
+                compte.Debiter(montant);
+            }
+            r.Text = compte.Describe();
+        }
+    }
+}

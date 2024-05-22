@@ -1,0 +1,20 @@
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\bin\Debug\ex2.exe.config
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\bin\Debug\ex2.exe
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\bin\Debug\ex2.pdb
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.csproj.AssemblyReference.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.Form1.resources
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.Properties.Resources.resources
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.csproj.GenerateResource.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.csproj.CoreCompileInputs.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.exe
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex2\ex2\obj\Debug\ex2.pdb
+C:\Users\moulinville\Desktop\ex2\ex2\bin\Debug\ex2.exe.config
+C:\Users\moulinville\Desktop\ex2\ex2\bin\Debug\ex2.exe
+C:\Users\moulinville\Desktop\ex2\ex2\bin\Debug\ex2.pdb
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.Form1.resources
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.Properties.Resources.resources
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.csproj.CoreCompileInputs.cache
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.exe
+C:\Users\moulinville\Desktop\ex2\ex2\obj\Debug\ex2.pdb

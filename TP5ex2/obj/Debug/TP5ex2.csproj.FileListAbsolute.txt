@@ -1,0 +1,5 @@
+C:\Users\moulinville\Desktop\C#.net\TP5ex2\obj\Debug\TP5ex2.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\C#.net\TP5ex2\obj\Debug\TP5ex2.Form1.resources
+C:\Users\moulinville\Desktop\C#.net\TP5ex2\obj\Debug\TP5ex2.Properties.Resources.resources
+C:\Users\moulinville\Desktop\C#.net\TP5ex2\obj\Debug\TP5ex2.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\C#.net\TP5ex2\obj\Debug\TP5ex2.csproj.CoreCompileInputs.cache

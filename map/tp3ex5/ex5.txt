@@ -1,0 +1,99 @@
+using System;
+using System.Collections.Generic;
+using System.Windows.Forms;
+
+public class Forme
+{
+    protected string _typef;
+
+    public Forme(string typef)
+    {
+        _typef = typef;
+    }
+
+    public virtual decimal Perimetre()
+    {
+        return 0;
+    }
+
+    public string GetType()
+    {
+        return _typef;
+    }
+}
+
+public class Rectangle : Forme
+{
+    private decimal Longueur, Largeur;
+
+    public Rectangle(decimal longueur, decimal largeur) : base("Rectangle")
+    {
+        Longueur = longueur;
+        Largeur = largeur;
+    }
+
+    public override decimal Perimetre()
+    {
+        return 2 * (Longueur + Largeur);
+    }
+}
+
+public class Carre : Rectangle
+{
+    public Carre(decimal cote) : base(cote, cote)
+    {
+        _typef = "Carre";
+    }
+}
+
+public class Cercle : Forme
+{
+    private decimal Rayon;
+
+    public Cercle(decimal rayon) : base("Cercle")
+    {
+        Rayon = rayon;
+    }
+
+    public override decimal Perimetre()
+    {
+        return 2 * (decimal)Math.PI * Rayon;
+    }
+}
+
+public class MainForm : Form
+{
+    private List<Forme> _list = new List<Forme>();
+    private ListBox listBox;
+    private Button addButton;
+
+    public MainForm()
+    {
+        // Initialisation de la fenêtre et de ses composants ici.
+
+        addButton.Click += AddButton_Click;
+    }
+
+    private void AddButton_Click(object sender, EventArgs e)
+    {
+        // Logique pour ajouter une forme (Rectangle, Carre ou Cercle) à la liste _list
+        // En fonction de la sélection de l'utilisateur.
+
+        // Exemple d'ajout d'un cercle :
+        decimal rayon = 10; // Remplacez par la valeur saisie par l'utilisateur.
+        Forme cercle = new Cercle(rayon);
+        _list.Add(cercle);
+
+        Affichage();
+    }
+
+    private void Affichage()
+    {
+        listBox.Items.Clear();
+        foreach (var forme in _list)
+        {
+            string itemText = $"{forme.GetType()}, périmètre - {forme.Perimetre()}";
+            listBox.Items.Add(itemText);
+        }
+    }
+}

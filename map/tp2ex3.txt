@@ -1,0 +1,22 @@
+/*
+  
+
+        
+//int larg = (int)Largeur.Value;
+Point p= new Point((int)centreX.Value,(int)CentreY.Value);
+_carre = new carre(p,(int)Largeur.Value);
+_carre.dessiner(this.CreateGraphics());
+        
+
+      
+_carre.AvancerDroite((int)distance.Value);
+Refresh();
+_carre.dessiner(this.CreateGraphics());
+        
+
+       
+_carre.AvancerEnBas((int)distance.Value);
+Refresh();
+_carre.dessiner(this.CreateGraphics());
+ 
+ */

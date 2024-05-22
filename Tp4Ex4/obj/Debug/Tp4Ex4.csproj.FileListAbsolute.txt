@@ -1,0 +1,10 @@
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\bin\Debug\Tp4Ex4.exe.config
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\bin\Debug\Tp4Ex4.exe
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\bin\Debug\Tp4Ex4.pdb
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.Properties.Resources.resources
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.csproj.CoreCompileInputs.cache
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.exe
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.pdb
+C:\Users\moulinville\Desktop\C#.net\Tp4Ex4\obj\Debug\Tp4Ex4.Form1.resources

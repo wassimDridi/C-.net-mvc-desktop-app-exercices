@@ -1,0 +1,4 @@
+C:\Users\moulinville\Desktop\C#.net\bdfront\obj\Debug\bdfront.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\C#.net\bdfront\obj\Debug\bdfront.Properties.Resources.resources
+C:\Users\moulinville\Desktop\C#.net\bdfront\obj\Debug\bdfront.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\C#.net\bdfront\obj\Debug\bdfront.csproj.CoreCompileInputs.cache

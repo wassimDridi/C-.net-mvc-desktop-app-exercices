@@ -1,0 +1,20 @@
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\bin\Debug\ex3.exe.config
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\bin\Debug\ex3.exe
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\bin\Debug\ex3.pdb
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.csproj.AssemblyReference.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.Form1.resources
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.Properties.Resources.resources
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.csproj.GenerateResource.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.csproj.CoreCompileInputs.cache
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.exe
+E:\big folder\2eme dsi 2023-2024\.net\tp4\ex3\ex3\obj\Debug\ex3.pdb
+C:\Users\moulinville\Desktop\ex3\ex3\bin\Debug\ex3.exe.config
+C:\Users\moulinville\Desktop\ex3\ex3\bin\Debug\ex3.exe
+C:\Users\moulinville\Desktop\ex3\ex3\bin\Debug\ex3.pdb
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.csproj.AssemblyReference.cache
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.Form1.resources
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.Properties.Resources.resources
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.csproj.GenerateResource.cache
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.csproj.CoreCompileInputs.cache
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.exe
+C:\Users\moulinville\Desktop\ex3\ex3\obj\Debug\ex3.pdb
